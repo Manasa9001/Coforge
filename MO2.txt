@@ -1,0 +1,16 @@
+import java.util.*;
+public class MO2{
+void sum(int a, int b)
+{
+System.out.println("Int args");
+System.out.println(a+b);
+}
+void sum(long a, long b)
+System.out.println("Long  args");
+System.out.println(a+b);
+}
+public static void main(String[] args){
+MO2 m=new MO2();
+m.sum(10,10);
+m.sum(100L,100L);
+}}
